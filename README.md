@@ -20,4 +20,4 @@ git pull
 # Other Version
 If you don't like the *fannnncy* transitions, then you're a loser. Just kidding, some people don't. Just incase there is someone out there who doesn't like the transitions that happen on hover, there is another version and it can be found here: https://github.com/LuckFire/GradientButtons-v2/tree/no-transitions
 
-## NOTE: PLEASE READ THE README.md FOR INFORMATION ON INSTALLATION, IT IS DIFFERENT COMPARED TO THIS.
+### NOTE: PLEASE READ THE README.md FOR INFORMATION ON INSTALLATION, IT IS DIFFERENT COMPARED TO THIS.

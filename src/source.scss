@@ -6,24 +6,35 @@ $green-gradient: 315deg, #264D41 0%, #43B581 74%;
 $grey-gradient: 315deg, #373A45 0%, #747F8D 74%;
 $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
-
 /* Menu Items (right click, server menu, message actions, ect.) */
-.item-1tOPte.focused-3afm-j {
-    color: #fff;
-    background: linear-gradient($default-gradient);
-    font-size: 15px;
-    font-weight: bold;
-    transition: 0.1s linear;
+.item-1tOPte {
+    &.focused-3afm-j, &:active {
+        color: #fff;
+        background: linear-gradient($default-gradient);
+        font-size: 15px;
+        font-weight: bold;
+        transition: 0.1s linear;
+    }
+
+    &.colorPremium-p4p7qO {
+        &.focused-3afm-j, &:active {
+            color: #fff;
+            background: linear-gradient($special-gradient);
+        }
+    }
 
     &.colorDanger-2qLCe1 {
-        color: #fff;
-        background: linear-gradient($red-gradient);
+        &.focused-3afm-j, &:active {
+            color: #fff;
+            background: linear-gradient($red-gradient);
+        }
     }
 }
 .item-1tOPte {
     font-weight: 500;
     transition: 0.1s linear;
 }
+
 
 .wrapper-2aW0bm > .button-1ZiXG9 {
     &:not(.dangerous-2r8KxV):hover {
@@ -44,7 +55,6 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
         }
     }
 }
-
 .wrapper-2aW0bm > div > .button-1ZiXG9 {
     &:hover {
         color: #fff;
@@ -56,10 +66,6 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
     }
 }
 
-#guild-header-popout-premium-subscribe.focused-3afm-j {
-    background: linear-gradient($special-gradient);
-}
-
 
 /* Status Menu */
 .status-1fhblQ:active, 
@@ -67,23 +73,29 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
     color: #fff
 }
 
-.focused-3afm-j#status-picker- {
-    transition: 0.075s linear;
+#status-picker > div > .item-1tOPte {
+    &.focused-3afm-j, &:active {
+        transition: 0.075s linear;
 
-    &online {
-        background: linear-gradient($green-gradient);
-    }
-
-    &idle {
-        background: linear-gradient($yellow-gradient);
-    }
-
-    &dnd {
-        background: linear-gradient($red-gradient);
-    }
-
-    &invisible {
-        background: linear-gradient($grey-gradient);
+        & > .statusItem-33LqPf > svg > foreignObject > .status-1AY8sU  {
+            background: #fff !important;
+        }
+    
+        &#status-picker-online {
+            background: linear-gradient($green-gradient);
+        }
+    
+        &#status-picker-idle {
+            background: linear-gradient($yellow-gradient);
+        }
+    
+        &#status-picker-dnd {
+            background: linear-gradient($red-gradient);
+        }
+    
+        &#status-picker-invisible {
+            background: linear-gradient($grey-gradient);
+        }
     }
 }
 

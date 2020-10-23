@@ -157,6 +157,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Blurple Buttons */
 .colorBrand-3pXr91:not(.lookOutlined-3sRXeN):not(.lookBlank-3eh9lL):not(.lookInverted-2D7oAl):not(.buttonColor-7qQbGO) {
     background: linear-gradient($default-gradient);
+    color: #fff;
 
     &:not([disabled]):hover {
         transform: scale(1.03);
@@ -174,6 +175,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 .colorPrimary-3b3xI6:not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN),
 .buttonColor-7qQbGO:not(.buttonActive-3FrkXp) {
     background: linear-gradient($grey-gradient);
+    color: #fff;
 
     &:not(.fauxDisabled-2ik0Vw):hover {
         transform: scale(1.03);
@@ -189,9 +191,10 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
 
 /* Green Buttons */
-.colorGreen-29iAKY,
+.colorGreen-29iAKY:not(.lookOutlined-3sRXeN),
 .buttonActive-3FrkXp {
     background: linear-gradient($green-gradient);
+    color: #fff;
 
     &:hover {
         transform: scale(1.03);
@@ -208,6 +211,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Yellow Buttons */
 .lookFilled-1Gx00P.colorYellow-2JqYwt {
     background: linear-gradient($yellow-gradient);
+    color: #fff;
 
     &:hover {
         transform: scale(1.03);
@@ -223,6 +227,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Red Buttons */
 .lookFilled-1Gx00P.colorRed-1TFJan {
     background: linear-gradient($red-gradient);
+    color: #fff;
 
     &:hover {
         transform: scale(1.03);

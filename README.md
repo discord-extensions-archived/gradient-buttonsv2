@@ -13,9 +13,9 @@ git pull
 ```
 
 # Previews
-![Preview](./Previews/Server.png)
-![Preview](./Previews/StatusPicker.png)
-![Preview](./Previews/Message.png)
+![Preview](./Previews/Server.gif)
+![Preview](./Previews/StatusPicker.gif)
+![Preview](./Previews/Message.gif)
 
 # Other Version
 If you don't like the *fannnncy* transitions, then you're a loser. Just kidding, some people don't. Just incase there is someone out there who doesn't like the transitions that happen on hover, there is another version and it can be found here: https://github.com/

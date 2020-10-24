@@ -182,7 +182,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
         transition: 0.15s linear;
     }
 }
-.colorGrey-2DXtkV,
+.colorGrey-2DXtkV:not(.lookGhost-2Fn_0-),
 .colorPrimary-3b3xI6:not(.lookLink-9FtZy-),
 .buttonColor-7qQbGO {
     transform: scale(1);

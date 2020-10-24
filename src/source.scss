@@ -171,7 +171,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
 
 /* Grey Buttons */
-.colorGrey-2DXtkV,
+.colorGrey-2DXtkV:not(.lookGhost-2Fn_0-),
 .colorPrimary-3b3xI6:not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN),
 .buttonColor-7qQbGO:not(.buttonActive-3FrkXp) {
     background: linear-gradient($grey-gradient);

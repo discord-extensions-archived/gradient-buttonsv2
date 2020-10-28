@@ -8,7 +8,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
 /* Menu Items (right click, server menu, message actions, ect.) */
 .item-1tOPte {
-    &.focused-3afm-j, &:active {
+    &.focused-3afm-j, &:active:not(#user-context-user-volume) {
         color: #fff;
         background: linear-gradient($default-gradient);
         font-size: 15px;

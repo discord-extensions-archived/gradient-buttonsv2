@@ -18,4 +18,4 @@ git pull
 ![Preview](./Previews/Message.gif)
 
 # Other Version
-If you don't like the *fannnncy* transitions on hover, then there is a version **JUST** for ~~Losers~~ people like you! Head over to the link and **make sure you follow the README.md** to understand how to install, since it's different than this. https://github.com/LuckFire/GradientButtons-v2/tree/no-transitions
+If you don't like the *fannnncy* transitions on hover, then there is a version **JUST** for ~~losers~~ people like you! Head over to the link and **make sure you follow the README.md** to understand how to install, since it's different than this. https://github.com/LuckFire/GradientButtons-v2/tree/no-transitions

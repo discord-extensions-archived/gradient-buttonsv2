@@ -8,7 +8,7 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
 /* Menu Items (right click, server menu, message actions, ect.) */
 .item-1tOPte {
-    &.focused-3afm-j, &:active:not(#user-context-user-volume) {
+    &.focused-3afm-j, &:active:not(.colorPremium-p4p7qO):not(.colorDanger-2qLCe1):not(#user-context-user-volume) {
         color: #fff;
         background: linear-gradient($default-gradient);
         font-size: 15px;
@@ -20,13 +20,19 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
         &.focused-3afm-j, &:active {
             color: #fff;
             background: linear-gradient($special-gradient);
+            font-size: 15px;
+            font-weight: bold;
+            transition: 0.1s linear;
         }
     }
 
     &.colorDanger-2qLCe1 {
         &.focused-3afm-j, &:active {
             color: #fff;
-            background: linear-gradient($red-gradient) !important;
+            background: linear-gradient($red-gradient);
+            font-size: 15px;
+            font-weight: bold;
+            transition: 0.1s linear;
         }
     }
 }

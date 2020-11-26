@@ -1,4 +1,4 @@
-# GradientButtons-v2
+# GradientButtons v2
 Add some gradients to your buttons.
 
 # Installation and Updating

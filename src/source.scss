@@ -47,7 +47,6 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Status Menu */
 #status-picker div .item-1tOPte.focused-3afm-j,
 #status-picker div .item-1tOPte:active {
-
     .statusItem-33LqPf svg foreignObject .status-1AY8sU  {
         background: #fff !important;
     }
@@ -95,7 +94,6 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Blurple Buttons */
 .colorBrand-3pXr91:not(.lookOutlined-3sRXeN):not(.lookBlank-3eh9lL):not(.lookInverted-2D7oAl):not(.buttonColor-7qQbGO):not(.lookLink-9FtZy-) {
     background: linear-gradient($default-gradient);
-    color: #fff;
 }
 
 /* Grey Buttons */
@@ -103,7 +101,6 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 .colorPrimary-3b3xI6:not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN),
 .buttonColor-7qQbGO:not(.buttonActive-3FrkXp) {
     background: linear-gradient($grey-gradient);
-    color: #fff;
 }
 
 
@@ -111,18 +108,15 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 .colorGreen-29iAKY:not(.lookOutlined-3sRXeN),
 .buttonActive-3FrkXp {
     background: linear-gradient($green-gradient);
-    color: #fff;
 }
 
 
 /* Yellow Buttons */
 .lookFilled-1Gx00P.colorYellow-2JqYwt {
     background: linear-gradient($yellow-gradient);
-    color: #fff;
 }
 
 /* Red Buttons */
 .lookFilled-1Gx00P.colorRed-1TFJan {
     background: linear-gradient($red-gradient);
-    color: #fff;
 }

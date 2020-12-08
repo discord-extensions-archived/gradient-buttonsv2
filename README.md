@@ -18,4 +18,4 @@ git pull
 ![Preview](./Previews/Message.gif)
 
 # Disable Transitions
-If you don't like the *fannnncy* transitions on hover,y ou can simply disable them by going into the index.css file, and under where it says "./src/transitions.scss", comment the line out or select and delete it!
+If you don't like the *fannnncy* transitions on hover, you can simply disable them by going into the index.css file, and under where it says "./src/transitions.scss", comment the line out or select and delete it!

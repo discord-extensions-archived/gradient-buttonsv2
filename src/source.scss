@@ -9,190 +9,98 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Menu Items (right click, server menu, message actions, ect.) */
 .item-1tOPte {
     &.focused-3afm-j, &:active:not(.colorPremium-p4p7qO):not(.colorDanger-2qLCe1):not(#user-context-user-volume) {
-        color: #fff;
         background: linear-gradient($default-gradient);
-        font-size: 15px;
-        font-weight: bold;
-        transition: 0.1s linear;
     }
 
     &.colorPremium-p4p7qO {
         &.focused-3afm-j, &:active {
-            color: #fff;
             background: linear-gradient($special-gradient);
-            font-size: 15px;
-            font-weight: bold;
-            transition: 0.1s linear;
         }
     }
 
     &.colorDanger-2qLCe1 {
         &.focused-3afm-j, &:active {
-            color: #fff;
             background: linear-gradient($red-gradient);
-            font-size: 15px;
-            font-weight: bold;
-            transition: 0.1s linear;
         }
     }
 }
-.item-1tOPte {
-    font-weight: 500;
-    transition: 0.1s linear;
-}
 
-
-.wrapper-2aW0bm > .button-1ZiXG9 {
+.wrapper-2aW0bm .button-1ZiXG9 {
     &:not(.dangerous-2r8KxV):hover {
         color: #fff;
         background: linear-gradient($default-gradient);
-        & > img, svg {
-            transform: scale(1.15);
-            transition: 0.15s linear;
-        }
     }
 
     &.dangerous-2r8KxV:hover {
         color: #fff;
         background: linear-gradient($red-gradient);
-        & > svg:hover {
-            transform: scale(1.15);
-            transition: 0.15s linear;
-        }
     }
 }
-.wrapper-2aW0bm > div > .button-1ZiXG9 {
+.wrapper-2aW0bm div .button-1ZiXG9 {
     &:hover {
         color: #fff;
         background: linear-gradient($default-gradient);
-        & > img, svg {
-            transform: scale(1.15);
-            transition: 0.15s linear;
-        }
     }
 }
 
 
 /* Status Menu */
-.status-1fhblQ:active, 
-.status-1fhblQ + .description-2L932D:active {
-    color: #fff
-}
+#status-picker div .item-1tOPte.focused-3afm-j,
+#status-picker div .item-1tOPte:active {
+    .statusItem-33LqPf svg foreignObject .status-1AY8sU  {
+        background: #fff !important;
+    }
 
-#status-picker > div > .item-1tOPte {
-    &.focused-3afm-j, &:active {
-        transition: 0.075s linear;
+    &#status-picker-online {
+        background: linear-gradient($green-gradient);
+    }
 
-        & > .statusItem-33LqPf > svg > foreignObject > .status-1AY8sU  {
-            background: #fff !important;
-        }
+    &#status-picker-idle {
+        background: linear-gradient($yellow-gradient); 
+    }
     
-        &#status-picker-online {
-            background: linear-gradient($green-gradient);
-        }
+    &#status-picker-dnd {
+        background: linear-gradient($red-gradient);
+    }
     
-        &#status-picker-idle {
-            background: linear-gradient($yellow-gradient);
-        }
-    
-        &#status-picker-dnd {
-            background: linear-gradient($red-gradient);
-        }
-    
-        &#status-picker-invisible {
-            background: linear-gradient($grey-gradient);
-        }
+    &#status-picker-invisible {
+        background: linear-gradient($grey-gradient);
     }
 }
 
 
 /* Server List (home, join/create, discovery, ect) */
-.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background: linear-gradient($default-gradient);
-
-    & > .homeIcon-tEMBK1 {
-        transform: scale(1.1);
-        transition: 0.15s linear;
-    }
-}
-.wrapper-1BJsBx > .childWrapper-anI2G9 > .homeIcon-tEMBK1 {
-    transform: scale(1);
-    transition: 0.15s linear;
 }
 
 .circleIconButton-jET_ig.selected-ugP_am {
     background: linear-gradient($green-gradient);
-
-    & > svg {
-        transform: scale(1.25);
-    }
-}
-.circleIconButton-jET_ig > svg {
-    transform: scale(1);
 }
 
 
 /* Settings (user, server, ect.) */
-.side-8zPYf6 > .item-PXvHYJ {
-    &:hover {
-        transform: scale(1.025);
-        transition: 0.15s linear;
-    }
-
+.side-8zPYf6 .item-PXvHYJ {
     &.selected-3s45Ha {
         background: linear-gradient($default-gradient);
     }
 
-    &[data-item-id="DiscordNitro"]:not(:hover), &[data-item-id="GUILD_PREMIUM"]:not(:hover) {
-        transform: scale(1);
-        transition: 0s linear;
-    }
-
     &[style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
-        color: #fff;
         background: linear-gradient($special-gradient);
     }
-}
-
-.side-8zPYf6 > .item-PXvHYJ {
-    transform: scale(1);
-    transition: 0.15s linear;
 }
 
 
 /* Blurple Buttons */
 .colorBrand-3pXr91:not(.lookOutlined-3sRXeN):not(.lookBlank-3eh9lL):not(.lookInverted-2D7oAl):not(.buttonColor-7qQbGO):not(.lookLink-9FtZy-) {
     background: linear-gradient($default-gradient);
-    color: #fff;
-
-    &:not([disabled]):hover {
-        transform: scale(1.03);
-        transition: 0.15s linear;
-    }
 }
-.colorBrand-3pXr91 {
-    transform: scale(1);
-    transition: 0.15s linear;
-}
-
 
 /* Grey Buttons */
 .colorGrey-2DXtkV:not(.lookGhost-2Fn_0-),
 .colorPrimary-3b3xI6:not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN),
 .buttonColor-7qQbGO:not(.buttonActive-3FrkXp) {
     background: linear-gradient($grey-gradient);
-    color: #fff;
-
-    &:not(.fauxDisabled-2ik0Vw):hover {
-        transform: scale(1.03);
-        transition: 0.15s linear;
-    }
-}
-.colorGrey-2DXtkV:not(.lookGhost-2Fn_0-),
-.colorPrimary-3b3xI6:not(.lookLink-9FtZy-),
-.buttonColor-7qQbGO {
-    transform: scale(1);
-    transition: 0.15s linear;
 }
 
 
@@ -200,47 +108,15 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 .colorGreen-29iAKY:not(.lookOutlined-3sRXeN),
 .buttonActive-3FrkXp {
     background: linear-gradient($green-gradient);
-    color: #fff;
-
-    &:hover {
-        transform: scale(1.03);
-        transition: 0.15s linear;
-    }
-}
-.colorGreen-29iAKY,
-.buttonActive-3FrkXp {
-    transform: scale(1);
-    transition: 0.15s linear;
 }
 
 
 /* Yellow Buttons */
 .lookFilled-1Gx00P.colorYellow-2JqYwt {
     background: linear-gradient($yellow-gradient);
-    color: #fff;
-
-    &:hover {
-        transform: scale(1.03);
-        transition: 0.15s linear;
-    }
 }
-.lookFilled-1Gx00P.colorYellow-2JqYwt {
-    transform: scale(1);
-    transition: 0.15s linear;
-}
-
 
 /* Red Buttons */
 .lookFilled-1Gx00P.colorRed-1TFJan {
     background: linear-gradient($red-gradient);
-    color: #fff;
-
-    &:hover {
-        transform: scale(1.03);
-        transition: 0.15s linear;
-    }
-}
-.lookFilled-1Gx00P.colorRed-1TFJan {
-    transform: scale(1);
-    transition: 0.15s linear;
 }

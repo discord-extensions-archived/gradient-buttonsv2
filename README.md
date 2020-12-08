@@ -17,5 +17,5 @@ git pull
 ![Preview](./Previews/StatusPicker.gif)
 ![Preview](./Previews/Message.gif)
 
-# Other Version
-If you don't like the *fannnncy* transitions on hover, then there is a version **JUST** for ~~losers~~ people like you! Head over to the link and **make sure you follow the README.md** to understand how to install, since it's different than this. https://github.com/LuckFire/GradientButtons-v2/tree/no-transitions
+# Disable Transitions
+If you don't like the *fannnncy* transitions on hover, you can simply disable them by going into the index.css file, and under where it says "./src/transitions.scss", comment the line out or select and delete it!

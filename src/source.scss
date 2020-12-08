@@ -47,6 +47,11 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 /* Status Menu */
 #status-picker div .item-1tOPte.focused-3afm-j,
 #status-picker div .item-1tOPte:active {
+
+    .statusItem-33LqPf svg foreignObject .status-1AY8sU  {
+        background: #fff !important;
+    }
+
     &#status-picker-online {
         background: linear-gradient($green-gradient);
     }

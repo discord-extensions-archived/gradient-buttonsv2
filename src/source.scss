@@ -1,4 +1,4 @@
-$default-gradient: 315deg, #495DA4 0%, #7289DA 74%;
+$default-gradient: 315deg, #53385a 0%, #A871B6 74%;
 $special-gradient: 315deg, #8980F0 0%, #D577F0 74%;
 $red-gradient: 315deg, #AA3738 0%, #F04747 74%;
 $yellow-gradient: 315deg, #C2831B 0%, #FFB740 74%;
@@ -92,20 +92,20 @@ $white-gradient: 315deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 74%;
 
 
 /* Blurple Buttons */
-.colorBrand-3pXr91:not(.lookOutlined-3sRXeN):not(.lookBlank-3eh9lL):not(.lookInverted-2D7oAl):not(.buttonColor-7qQbGO):not(.lookLink-9FtZy-) {
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
     background: linear-gradient($default-gradient);
 }
 
 /* Grey Buttons */
-.colorGrey-2DXtkV:not(.lookGhost-2Fn_0-),
-.colorPrimary-3b3xI6:not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN),
-.buttonColor-7qQbGO:not(.buttonActive-3FrkXp) {
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookFilled-1Gx00P.buttonColor-7qQbGO {
     background: linear-gradient($grey-gradient);
 }
 
 
 /* Green Buttons */
-.colorGreen-29iAKY:not(.lookOutlined-3sRXeN),
+.lookFilled-1Gx00P.colorGreen-29iAKY,
 .buttonActive-3FrkXp {
     background: linear-gradient($green-gradient);
 }

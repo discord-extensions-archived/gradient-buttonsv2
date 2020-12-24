@@ -62,12 +62,7 @@
 
     &:hover {
         transform: scale(1.025);
-        transition: 0.15s linear;
-    }
-
-    &[data-item-id="DiscordNitro"]:not(:hover), &[data-item-id="GUILD_PREMIUM"]:not(:hover) {
-        transform: scale(1);
-        transition: 0s linear;
+        transition: 0.15s linear; 
     }
 }
 

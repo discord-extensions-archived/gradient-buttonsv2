@@ -34,7 +34,7 @@ git pull
 ```
 
 # Disabling Transitions
-If you're someone who dislikes the transitions, then I have added the ability to disable them. Open `./src/_root.scss` and paste the following below where it says `/* Transitions */`:
+If you're someone who dislikes the transitions, then I have added the ability to disable them. Open `./src/_root.scss` (for those on BD or Web just open the file, locate where `:root` is) and paste the following below where it says `/* Transitions */`:
 ```css
 --font-normal: 500;
 --font-hover: var(--font-normal);

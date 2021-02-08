@@ -1,0 +1,30 @@
+#app-mount {
+    .wrapper-1BJsBx {
+        .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+            transform: var(--transform-normal);
+            transition: var(--hover-transition);
+        }
+
+        &.selected-bZ3Lue .childWrapper-anI2G9 {
+            background: linear-gradient(var(--default-gradient));
+            
+            .homeIcon-tEMBK1 {
+                transform: var(--hover-transform);
+            }
+        }
+    }
+    
+    .circleIconButton-jET_ig {
+        svg {
+            transform: var(--transform-normal);
+        }
+
+        &.selected-ugP_am {
+            background: linear-gradient(var(--green-gradient));
+    
+            svg {
+                transform: var(--hover-transform);
+            }
+        }
+    }
+}

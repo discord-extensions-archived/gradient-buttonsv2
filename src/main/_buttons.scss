@@ -1,0 +1,54 @@
+#app-mount .lookFilled-1Gx00P {
+    // Blurple
+    &.colorBrand-3pXr91:not(.buttonActive-3FrkXp) {
+        background: linear-gradient(var(--default-gradient));
+        @include button();
+
+        &:not([disabled]):hover {
+            @include buttonHover();
+        }
+    }
+
+    // Grey
+    &.colorGrey-2DXtkV, &.colorPrimary-3b3xI6 {
+        background: linear-gradient(var(--grey-gradient));
+        @include button();
+
+        &:hover {
+            @include buttonHover();
+        }
+    }
+    &.buttonColor-7qQbGO.disabled-158sUq {
+        background: linear-gradient(var(--grey-gradient));
+    }
+
+    // Green
+    &.colorGreen-29iAKY, &.buttonActive-3FrkXp {
+        background: linear-gradient(var(--green-gradient));
+        @include button();
+
+        &:hover {
+            @include buttonHover();
+        }
+    }
+
+    // Yellow
+    &.colorYellow-2JqYwt {
+        background: linear-gradient(var(--yellow-gradient));
+        @include button();
+
+        &:hover {
+            @include buttonHover();
+        }
+    }
+
+    // Red
+    &.colorRed-1TFJan {
+        background: linear-gradient(var(--red-gradient));
+        @include button();
+
+        &:hover {
+            @include buttonHover();
+        }
+    }
+}

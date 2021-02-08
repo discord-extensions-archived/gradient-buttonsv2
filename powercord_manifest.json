@@ -1,7 +1,7 @@
 {
-    "name": "Gradient Button v2",
+    "name": "Gradient Button V2",
     "description": "Add some spice to your buttons.. with gradients!",
-    "version": "2.2.3",
+    "version": "2.2.4",
     "author": "LuckFire#4800",
     "theme": "index.scss",
     "consent": "false",

@@ -1,0 +1,25 @@
+#app-mount {
+    .wrapper-2aW0bm .button-1ZiXG9 {
+        img, svg {
+            transform: var(--transform-normal);
+            transition: var(--hover-transition);
+        }
+
+        &:hover {
+            img, svg {
+                transform: var(--hover-transform);
+                color: #fff;
+            }
+        }
+
+        &:not(.dangerous-2r8KxV):hover {
+            background: linear-gradient(var(--default-gradient));
+            color: #fff;
+        }
+
+        &.dangerous-2r8KxV:hover {
+            background: linear-gradient(var(--red-gradient));
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+:root {
+    /* Gradients */
+    --default-gradient: 315deg, #495DA4 0%, #7289DA 74%;
+    --special-gradient: 315deg, #8980F0 0%, #D577F0 74%;
+    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+    --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74%;
+    --green-gradient: 315deg, #264D41 0%, #43B581 74%;
+    --grey-gradient: 315deg, #373A45 0%, #747F8D 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+
+    /* Transitions */
+    --font-normal: 500;
+    --font-hover: bold; // Set to var(--font-normal)
+    --font-size-hover: 15px; // Set to 14px
+    --hover-transition: 0.1s linear; // Set to none
+    --transform-normal: scale(1); 
+    --hover-transform: scale(1.15); // Set to var(--transform-normal)
+    --setting-hover-transform: scale(1.025); // Set to var(--transform-normal)
+    --button-hover-transform: scale(1.03); // Set to var(--transform-normal)
+}

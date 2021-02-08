@@ -1,0 +1,25 @@
+#app-mount .menu-3sdvDG .item-1tOPte {
+    font-weight: var(--font-normal);
+    transition: var(--hover-transition);
+
+    &.focused-3afm-j, &:active {
+        font-size: var(--font-size-hover);
+        font-weight: var(--font-hover);
+
+        &:not(.colorPremium-p4p7qO):not(.colorDanger-2qLCe1):not(#user-context-user-volume) {
+            background: linear-gradient(var(--default-gradient));
+        }
+    }
+
+    &.colorPremium-p4p7qO {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--special-gradient));
+        }
+    }
+
+    &.colorDanger-2qLCe1 {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--red-gradient));
+        }
+    }
+}

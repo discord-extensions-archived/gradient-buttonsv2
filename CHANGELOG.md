@@ -1,3 +1,6 @@
+# v2.2.5
+Some enhancement updates by making the code more simpler. Removed a decent amount of lines doing this, now lets hope that nothing breaks..
+
 # v2.2.4
 For better maintaibility as well as more support, I have done an even better SCSS recode!!! YAY!!! fuck. Anyways, some other changes are:
 - Added support for BetterDiscord, Vizlaity and Web.

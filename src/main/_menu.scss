@@ -1,24 +1,17 @@
-#app-mount .menu-3sdvDG .item-1tOPte {
+#app-mount .menu-3sdvDG .item-1tOPte:not(#user-context-user-volume) {
     font-weight: var(--font-normal);
     transition: var(--hover-transition);
 
     &.focused-3afm-j, &:active {
         font-size: var(--font-size-hover);
         font-weight: var(--font-hover);
+        background: linear-gradient(var(--default-gradient));
 
-        &:not(.colorPremium-p4p7qO):not(.colorDanger-2qLCe1):not(#user-context-user-volume) {
-            background: linear-gradient(var(--default-gradient));
-        }
-    }
-
-    &.colorPremium-p4p7qO {
-        &.focused-3afm-j, &:active {
+        &.colorPremium-p4p7qO {
             background: linear-gradient(var(--special-gradient));
         }
-    }
 
-    &.colorDanger-2qLCe1 {
-        &.focused-3afm-j, &:active {
+        &.colorDanger-2qLCe1 {
             background: linear-gradient(var(--red-gradient));
         }
     }

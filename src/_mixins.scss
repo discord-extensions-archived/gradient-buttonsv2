@@ -1,8 +1,0 @@
-@mixin button {
-    transform: var(--transform-normal);
-    transition: 0.15s linear;
-}
-
-@mixin buttonHover {
-    transform: var(--button-hover-transform);
-}

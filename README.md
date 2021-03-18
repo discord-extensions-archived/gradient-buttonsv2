@@ -45,3 +45,8 @@ If you're someone who dislikes the transitions, then I have added the ability to
 --setting-hover-transform: var(--transform-normal);
 --button-hover-transform: var(--transform-normal);
 ```
+
+# Credits
+A big thank you to everyone who helped with this!
+- **[Hoofer](https://github.com/HooferDevelops)** for the original code, aka Gradient Buttons v1. He never published the code, so I decided to and make it my own (with permission ofc). 
+- **[botato](https://github.com/bototo2)** for teaching me that I could use #id instead of [id=""].

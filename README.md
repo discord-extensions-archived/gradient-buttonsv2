@@ -8,9 +8,9 @@
 # GradientButtons v2
 Add some spice to your buttons.. with gradients!
 
-![Preview](./assets/Server.gif)
-![Preview](./assets/StatusPicker.gif)
-![Preview](./assets/Message.gif)
+![Preview](./screenshots/server-menu.gif)
+![Preview](./screenshots/statuspicker-menu.gif)
+![Preview](./screenshots/message-menu.gif)
 
 # Installation
 For Powercord or Vizality installation, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
@@ -27,14 +27,8 @@ git clone https://github.com/Discord-Theme-Addons/gradientbuttons-v2
 2. After installing, head over to [this link](https://raw.githack.com/Discord-Theme-Addons/gradientbuttons-v2/main/src/support/GradientButtons.user.css).
 3. Press the "Install Style" button.
 
-# Updating for Powercord
-Powercords updater is currently broken, so in order to update the theme you will have to do it manually. To do it manually, go to **Themes -> GradientButtons-v2 -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
-```
-git pull
-```
-
 # Disabling Transitions
-If you're someone who dislikes the transitions, then I have added the ability to disable them. Open `./src/_root.scss` (for those on BD or Web just open the file, locate where `:root` is) and paste the following below where it says `/* Transitions */`:
+If you dislike the transitions on hover, you have the ability to disable them. On Powercord or Vizality, open `./src/_root.scss`. On BetterDiscord or Web, open the file and locate where `:root` is. Below where it says `/* Transitions */`, paste the following:
 ```css
 --font-normal: 500;
 --font-hover: var(--font-normal);
@@ -45,6 +39,9 @@ If you're someone who dislikes the transitions, then I have added the ability to
 --setting-hover-transform: var(--transform-normal);
 --button-hover-transform: var(--transform-normal);
 ```
+
+Here is a basic GIF tutorial on how to do that if you don't understand:
+![Tutorial](./screenshots/transition-tutorial.gif)
 
 # Credits
 A big thank you to everyone who helped with this!

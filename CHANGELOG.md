@@ -1,8 +1,17 @@
+# v2.2.6
+Some minor adjustments / changes.
+- Repo has been completely redone.
+    - New README & assets.
+    - File structure has been redone.
+    - Now using `@forward` and `@use` instead of `@import`.
+- BetterDiscord & Web versions now use an import.
+- Some variable changes, you will probably need to reinstall.
+
 # v2.2.5
 Some enhancement updates by making the code more simpler. Removed a decent amount of lines doing this, now lets hope that nothing breaks..
 
 # v2.2.4
-For better maintaibility as well as more support, I have done an even better SCSS recode!!! YAY!!! fuck. Anyways, some other changes are:
+Some minor additions and adjustments / changes.
 - Added support for BetterDiscord, Vizlaity and Web.
 - Cleaner sorted code.
 - A bit more cusomtization, as well as made it easier to disable transitions.

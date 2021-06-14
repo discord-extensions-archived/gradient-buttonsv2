@@ -1,0 +1,141 @@
+#app-mount .lookFilled-1Gx00P {
+    -webkit-transform: var(--transform-normal);
+            transform: var(--transform-normal);
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+}
+#app-mount .lookFilled-1Gx00P:hover {
+    -webkit-transform: var(--button-transform-hover);
+            transform: var(--button-transform-hover);
+}
+#app-mount .lookFilled-1Gx00P[disabled] {
+    -webkit-transform: none;
+            transform: none;
+}
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-blurple)));
+    background: linear-gradient(var(--gradient-blurple));
+}
+#app-mount .lookFilled-1Gx00P.colorGreen-29iAKY, #app-mount .lookFilled-1Gx00P.button-1YfofB.buttonActive-3FrkXp {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-green)));
+    background: linear-gradient(var(--gradient-green));
+}
+#app-mount .lookFilled-1Gx00P.colorYellow-2JqYwt {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-yellow)));
+    background: linear-gradient(var(--gradient-yellow));
+}
+#app-mount .lookFilled-1Gx00P.colorRed-1TFJan {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-red)));
+    background: linear-gradient(var(--gradient-red));
+}
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6, #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV, #app-mount .lookFilled-1Gx00P.buttonColor-7qQbGO {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-grey)));
+    background: linear-gradient(var(--gradient-grey));
+}
+
+#app-mount .guilds-1SWlCJ .wrapper-1BJsBx .homeIcon-FuNwkv {
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+    -webkit-transform: var(--transform-normal);
+            transform: var(--transform-normal);
+}
+#app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-blurple)));
+    background: linear-gradient(var(--gradient-blurple));
+}
+#app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue .homeIcon-FuNwkv {
+    -webkit-transform: var(--transform-hover);
+            transform: var(--transform-hover);
+}
+#app-mount .guilds-1SWlCJ .circleIconButton-1QV--U svg {
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+    -webkit-transform: var(--transform-normal);
+            transform: var(--transform-normal);
+}
+#app-mount .guilds-1SWlCJ .circleIconButton-1QV--U.selected-1JjBPm {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-green)));
+    background: linear-gradient(var(--gradient-green));
+}
+#app-mount .guilds-1SWlCJ .circleIconButton-1QV--U.selected-1JjBPm svg {
+    -webkit-transform: var(--transform-hover);
+            transform: var(--transform-hover);
+    color: white;
+}
+
+#app-mount .menu-3sdvDG .item-1tOPte {
+    font-weight: var(--font-default);
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+}
+#app-mount .menu-3sdvDG .item-1tOPte.focused-3afm-j, #app-mount .menu-3sdvDG .item-1tOPte:active {
+    font-size: var(--fontsize-hover);
+    font-weight: var(--font-hover);
+}
+#app-mount .menu-3sdvDG .colorDefault-2K3EoJ.focused-3afm-j, #app-mount .menu-3sdvDG .colorDefault-2K3EoJ:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-blurple)));
+    background: linear-gradient(var(--gradient-blurple));
+}
+#app-mount .menu-3sdvDG .colorDanger-2qLCe1.focused-3afm-j, #app-mount .menu-3sdvDG .colorDanger-2qLCe1:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-red)));
+    background: linear-gradient(var(--gradient-red));
+}
+#app-mount .menu-3sdvDG .colorPremium-p4p7qO.focused-3afm-j, #app-mount .menu-3sdvDG .colorPremium-p4p7qO:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-special)));
+    background: linear-gradient(var(--gradient-special));
+}
+#app-mount .menu-3sdvDG #status-picker-online.focused-3afm-j, #app-mount .menu-3sdvDG #status-picker-online:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-green)));
+    background: linear-gradient(var(--gradient-green));
+}
+#app-mount .menu-3sdvDG #status-picker-idle.focused-3afm-j, #app-mount .menu-3sdvDG #status-picker-idle:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-yellow)));
+    background: linear-gradient(var(--gradient-yellow));
+}
+#app-mount .menu-3sdvDG #status-picker-dnd.focused-3afm-j, #app-mount .menu-3sdvDG #status-picker-dnd:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-red)));
+    background: linear-gradient(var(--gradient-red));
+}
+#app-mount .menu-3sdvDG #status-picker-invisible.focused-3afm-j, #app-mount .menu-3sdvDG #status-picker-invisible:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-grey)));
+    background: linear-gradient(var(--gradient-grey));
+}
+
+#app-mount .wrapper-2aW0bm .button-1ZiXG9 img, #app-mount .wrapper-2aW0bm .button-1ZiXG9 svg {
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+    -webkit-transform: var(--transform-normal);
+            transform: var(--transform-normal);
+}
+#app-mount .wrapper-2aW0bm .button-1ZiXG9:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-blurple)));
+    background: linear-gradient(var(--gradient-blurple));
+}
+#app-mount .wrapper-2aW0bm .button-1ZiXG9:hover svg {
+    -webkit-transform: var(--transform-hover);
+            transform: var(--transform-hover);
+    color: white;
+}
+#app-mount .wrapper-2aW0bm .button-1ZiXG9.dangerous-2r8KxV:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-red)));
+    background: linear-gradient(var(--gradient-red));
+}
+
+#app-mount [aria-label$=_SETTINGS] .side-8zPYf6 .item-PXvHYJ {
+    font-weight: var(--font-default);
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+}
+#app-mount [aria-label$=_SETTINGS] .side-8zPYf6 .item-PXvHYJ:hover {
+    font-weight: var(--font-hover);
+}
+#app-mount [aria-label$=_SETTINGS] .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-blurple)));
+    background: linear-gradient(var(--gradient-blurple));
+    color: #fff;
+    font-weight: var(--font-hover);
+}
+#app-mount [aria-label$=_SETTINGS] .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha.premiumTabItem-1QTfBr, #app-mount [aria-label$=_SETTINGS] .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha.serverBoostTabItem-2hFTIN {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--gradient-special)));
+    background: linear-gradient(var(--gradient-special));
+}

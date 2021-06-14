@@ -1,21 +1,18 @@
 :root {
     /* Gradients */
-    --default-gradient: 315deg, #495DA4 0%, #7289DA 74%;
-    --special-gradient: 315deg, #8980F0 0%, #D577F0 74%;
-    --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
-    --yellow-gradient: 315deg, #C2831B 0%, #FFB740 74%;
-    --green-gradient: 315deg, #264D41 0%, #43B581 74%;
-    --grey-gradient: 315deg, #373A45 0%, #747F8D 74%;
-    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+    --gradient-special: 140deg, #8980F0 0%, #D577F0 100%;
+    --gradient-blurple: 140deg, #5865f2 0%, #2a328a 100%;
+    --gradient-green: 140deg, #3BA55D 0%, #15662f 100%;
+    --gradient-yellow: 140deg, #FAA81A 0%, #be8013 100%;
+    --gradient-red: 140deg, #ed4245 0%, #912b2d 100%;
+    --gradient-grey: 140deg, #747F8D 0%, #3c424b 100%;
 
     /* Transitions */
-    --font-normal: 500;
-    --font-hover: bold; // Set to var(--font-normal)
-    --font-size-hover: 15px; // Set to 14px
-    --hover-transition: 0.1s linear; // Set to none
-    --transform-normal: scale(1); 
-    --hover-transform: scale(1.15); // Set to var(--transform-normal)
-    --setting-hover-transform: scale(1.025); // Set to var(--transform-normal)
-    --button-hover-transform: scale(1.03); // Set to var(--transform-normal)
+    --button-transition: 0.1s linear;
+    --font-default: 500;
+    --font-hover: bold;
+    --fontsize-hover: 15px;
+    --transform-normal: scale(1);
+    --transform-hover: scale(1.15);
+    --button-transform-hover: scale(1.04);
 }
-

@@ -1,20 +1,20 @@
-#app-mount .side-8zPYf6 .item-PXvHYJ {
-    transform: var(--transform-normal);
-    transition: var(--hover-transition);
+#app-mount [aria-label$="_SETTINGS"] .side-8zPYf6 {
+    .item-PXvHYJ {
+        font-weight: var(--font-default);
+        transition: var(--button-transition);
 
-    &:hover {
-        transform: var(--setting-hover-transform);
-    }
+        &:hover {
+            font-weight: var(--font-hover);
+        }
 
-    &.selected-3s45Ha {
-        background: linear-gradient(var(--default-gradient));
-    }
-
-    &[aria-controls="Discord Nitro-tab"], 
-    &[aria-controls="GUILD_PREMIUM-tab"] {
-        &:active, &[aria-selected="true"] {
-            background: linear-gradient(var(--special-gradient));
+        &.selected-3s45Ha {
+            background: linear-gradient(var(--gradient-blurple));
             color: #fff;
+            font-weight: var(--font-hover);
+
+            &.premiumTabItem-1QTfBr, &.serverBoostTabItem-2hFTIN {
+                background: linear-gradient(var(--gradient-special))
+            }
         }
     }
 }

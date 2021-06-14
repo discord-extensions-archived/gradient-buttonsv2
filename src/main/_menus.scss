@@ -1,0 +1,50 @@
+#app-mount .menu-3sdvDG {
+    .item-1tOPte {
+        font-weight: var(--font-default);
+        transition: var(--button-transition);
+
+        &.focused-3afm-j, &:active {
+            font-size: var(--fontsize-hover);
+            font-weight: var(--font-hover);
+        }
+    }
+
+    // defaults
+    .colorDefault-2K3EoJ {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--gradient-blurple))
+        }
+    }
+    .colorDanger-2qLCe1 {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--gradient-red))
+        }
+    }
+    .colorPremium-p4p7qO {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--gradient-special))
+        }
+    }
+
+    // status picker
+    #status-picker-online {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--gradient-green))
+        }
+    }
+    #status-picker-idle {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--gradient-yellow))
+        }
+    }
+    #status-picker-dnd {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--gradient-red))
+        }
+    }
+    #status-picker-invisible {
+        &.focused-3afm-j, &:active {
+            background: linear-gradient(var(--gradient-grey))
+        }
+    }
+}

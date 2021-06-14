@@ -1,36 +1,27 @@
 #app-mount .lookFilled-1Gx00P {
     transform: var(--transform-normal);
-    transition: 0.15s linear;
+    transition: var(--button-transition);
 
     &:hover {
-        transform: var(--button-hover-transform);
+        transform: var(--button-transform-hover);
+    }
+    &[disabled] {
+        transform: none;
     }
 
-    &.colorBrand-3pXr91:not(.buttonActive-3FrkXp) {
-        background: linear-gradient(var(--default-gradient));
+    &.colorBrand-3pXr91 {
+        background: linear-gradient(var(--gradient-blurple));
     }
-
-    &.colorGrey-2DXtkV, &.colorPrimary-3b3xI6 {
-        background: linear-gradient(var(--grey-gradient));
+    &.colorGreen-29iAKY, &.button-1YfofB.buttonActive-3FrkXp {
+        background: linear-gradient(var(--gradient-green));
     }
-    
-    &.buttonColor-7qQbGO.disabled-158sUq {
-        background: linear-gradient(var(--grey-gradient));
-
-        &:hover {
-            transform: var(--transform-normal);
-        }
-    }
-
-    &.colorGreen-29iAKY, &.buttonActive-3FrkXp {
-        background: linear-gradient(var(--green-gradient));
-    }
-
     &.colorYellow-2JqYwt {
-        background: linear-gradient(var(--yellow-gradient));
+        background: linear-gradient(var(--gradient-yellow));
     }
-
     &.colorRed-1TFJan {
-        background: linear-gradient(var(--red-gradient));
+        background: linear-gradient(var(--gradient-red));
+    }
+    &.colorPrimary-3b3xI6, &.colorGrey-2DXtkV, &.buttonColor-7qQbGO {
+        background: linear-gradient(var(--gradient-grey));
     }
 }

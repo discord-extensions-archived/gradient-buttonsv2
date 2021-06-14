@@ -1,25 +1,19 @@
-#app-mount {
-    .wrapper-2aW0bm .button-1ZiXG9 {
-        img, svg {
-            transform: var(--transform-normal);
-            transition: var(--hover-transition);
-        }
+#app-mount .wrapper-2aW0bm .button-1ZiXG9 {
+    img, svg {
+        transition: var(--button-transition);
+        transform: var(--transform-normal);
+    }
 
-        &:hover {
-            img, svg {
-                transform: var(--hover-transform);
-                color: #fff;
-            }
-        }
+    &:hover {
+        background: linear-gradient(var(--gradient-blurple));
 
-        &:not(.dangerous-2r8KxV):hover {
-            background: linear-gradient(var(--default-gradient));
-            color: #fff;
+        svg {
+            transform: var(--transform-hover);
+            color: white;
         }
+    }
 
-        &.dangerous-2r8KxV:hover {
-            background: linear-gradient(var(--red-gradient));
-            color: #fff;
-        }
+    &.dangerous-2r8KxV:hover {
+        background: linear-gradient(var(--gradient-red))
     }
 }

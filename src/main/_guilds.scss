@@ -1,29 +1,31 @@
-#app-mount {
+#app-mount .guilds-1SWlCJ {
     .wrapper-1BJsBx {
-        .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+        .homeIcon-FuNwkv {
+            transition: var(--button-transition);
             transform: var(--transform-normal);
-            transition: var(--hover-transition);
         }
 
-        &.selected-bZ3Lue .childWrapper-anI2G9 {
-            background: linear-gradient(var(--default-gradient));
-            
-            .homeIcon-tEMBK1 {
-                transform: var(--hover-transform);
+        &.selected-bZ3Lue {
+            .childWrapper-anI2G9 {
+                background: linear-gradient(var(--gradient-blurple))
+            }
+            .homeIcon-FuNwkv {
+                transform: var(--transform-hover);
             }
         }
     }
-    
-    .circleIconButton-jET_ig {
+    .circleIconButton-1QV--U { 
         svg {
+            transition: var(--button-transition);
             transform: var(--transform-normal);
         }
+        
+        &.selected-1JjBPm {
+            background: linear-gradient(var(--gradient-green));
 
-        &.selected-ugP_am {
-            background: linear-gradient(var(--green-gradient));
-    
             svg {
-                transform: var(--hover-transform);
+                transform: var(--transform-hover);
+                color: white;
             }
         }
     }

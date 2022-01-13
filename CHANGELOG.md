@@ -1,3 +1,6 @@
+# v2.3.0
+- Fixed theme being broken due to class reroll.
+
 # v2.2.6
 Some minor adjustments / changes.
 - Repo has been completely redone.

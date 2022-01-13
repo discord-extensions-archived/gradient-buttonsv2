@@ -14,7 +14,7 @@ git clone https://github.com/Discord-Theme-Addons/gradientbuttons-v2
 ```
 
 **For [BetterDiscord](http://betterdiscord.app/):**
-- [Direct Download](https://github.com/Discord-Theme-Addons/gradientbuttons-v2/releases/download/2.2.6/GradientButtons.theme.css)
+- [Direct Download](https://github.com/Discord-Theme-Addons/gradientbuttons-v2/releases/download/bd-download/GradientButtons.theme.css)
 - [View Source](https://discord-theme-addons.github.io/gradientbuttons-v2/src/support/compiled.css)
 
 **For [Stylus](https://github.com/openstyles/stylus):**

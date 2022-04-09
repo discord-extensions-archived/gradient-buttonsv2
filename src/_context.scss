@@ -1,50 +1,44 @@
-#app-mount .menu-1QACrS {
-    .item-1OdjEX {
+.menu-1QACrS {
+    .item-1OdjEX:not(.hideInteraction-2jPGL_) {
         font-weight: var(--font-default);
         transition: var(--button-transition);
 
         &.focused-3qFvc8, &:active {
             font-size: var(--fontsize-hover);
             font-weight: var(--font-hover);
+            background: var(--gradient);
         }
     }
 
-    // defaults
     .colorDefault-CDqZdO {
         &.focused-3qFvc8, &:active {
-            background: linear-gradient(var(--gradient-blurple))
+            --gradient: linear-gradient(var(--gradient-blurple));
         }
     }
-    .colorDanger-3n-KnP {
+    .colorDanger-3n-KnP,
+    #status-picker-dnd {
         &.focused-3qFvc8, &:active {
-            background: linear-gradient(var(--gradient-red))
+            --gradient: linear-gradient(var(--gradient-red));
         }
     }
     .colorPremium-vwmYZQ {
         &.focused-3qFvc8, &:active {
-            background: linear-gradient(var(--gradient-special))
+            --gradient: linear-gradient(var(--gradient-special))
         }
     }
-
-    // status picker
     #status-picker-online {
         &.focused-3qFvc8, &:active {
-            background: linear-gradient(var(--gradient-green))
+            --gradient: linear-gradient(var(--gradient-green));
         }
     }
     #status-picker-idle {
         &.focused-3qFvc8, &:active {
-            background: linear-gradient(var(--gradient-yellow))
-        }
-    }
-    #status-picker-dnd {
-        &.focused-3qFvc8, &:active {
-            background: linear-gradient(var(--gradient-red))
+            --gradient: linear-gradient(var(--gradient-yellow));
         }
     }
     #status-picker-invisible {
         &.focused-3qFvc8, &:active {
-            background: linear-gradient(var(--gradient-grey))
+            --gradient: linear-gradient(var(--gradient-grey));
         }
     }
 }

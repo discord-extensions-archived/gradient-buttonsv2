@@ -1,11 +1,12 @@
 #app-mount .wrapper-2vIMkT .button-3bklZh {
+    background: var(--gradient);
     img, svg {
         transition: var(--button-transition);
         transform: var(--transform-normal);
     }
 
     &:hover {
-        background: linear-gradient(var(--gradient-blurple));
+        --gradient: linear-gradient(var(--gradient-blurple));
 
         svg {
             transform: var(--transform-hover);
@@ -14,6 +15,6 @@
     }
 
     &.dangerous-Y36ifs:hover {
-        background: linear-gradient(var(--gradient-red))
+        --gradient: linear-gradient(var(--gradient-red))
     }
 }

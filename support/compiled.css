@@ -1,0 +1,82 @@
+.lookFilled-yCfaCM {
+    -webkit-transform: var(--transform-normal);
+            transform: var(--transform-normal);
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+    background: var(--gradient);
+}
+.lookFilled-yCfaCM:hover {
+    -webkit-transform: var(--button-transform-hover);
+            transform: var(--button-transform-hover);
+}
+.lookFilled-yCfaCM[disabled] {
+    -webkit-transform: none;
+            transform: none;
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    --gradient: linear-gradient(var(--gradient-blurple));
+}
+.lookFilled-yCfaCM.colorGreen-3y-Z79, .lookFilled-yCfaCM.button-1EGGcP.buttonActive-Uc1jHx {
+    --gradient: linear-gradient(var(--gradient-green));
+}
+.lookFilled-yCfaCM.colorYellow-Pgtmch {
+    --gradient: linear-gradient(var(--gradient-yellow));
+}
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    --gradient: linear-gradient(var(--gradient-red));
+}
+.lookFilled-yCfaCM.colorPrimary-2AuQVo, .lookFilled-yCfaCM.colorGrey-2iAG-B, .lookFilled-yCfaCM.buttonColor-3bP3fX {
+    --gradient: linear-gradient(var(--gradient-grey));
+}
+
+.menu-1QACrS .item-1OdjEX:not(.hideInteraction-2jPGL_) {
+    font-weight: var(--font-default);
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+}
+.menu-1QACrS .item-1OdjEX:not(.hideInteraction-2jPGL_).focused-3qFvc8, .menu-1QACrS .item-1OdjEX:not(.hideInteraction-2jPGL_):active {
+    font-size: var(--fontsize-hover);
+    font-weight: var(--font-hover);
+    background: var(--gradient);
+}
+.menu-1QACrS .colorDefault-CDqZdO.focused-3qFvc8, .menu-1QACrS .colorDefault-CDqZdO:active {
+    --gradient: linear-gradient(var(--gradient-blurple));
+}
+.menu-1QACrS .colorDanger-3n-KnP.focused-3qFvc8, .menu-1QACrS .colorDanger-3n-KnP:active,
+.menu-1QACrS #status-picker-dnd.focused-3qFvc8,
+.menu-1QACrS #status-picker-dnd:active {
+    --gradient: linear-gradient(var(--gradient-red));
+}
+.menu-1QACrS .colorPremium-vwmYZQ.focused-3qFvc8, .menu-1QACrS .colorPremium-vwmYZQ:active {
+    --gradient: linear-gradient(var(--gradient-special)) ;
+}
+.menu-1QACrS #status-picker-online.focused-3qFvc8, .menu-1QACrS #status-picker-online:active {
+    --gradient: linear-gradient(var(--gradient-green));
+}
+.menu-1QACrS #status-picker-idle.focused-3qFvc8, .menu-1QACrS #status-picker-idle:active {
+    --gradient: linear-gradient(var(--gradient-yellow));
+}
+.menu-1QACrS #status-picker-invisible.focused-3qFvc8, .menu-1QACrS #status-picker-invisible:active {
+    --gradient: linear-gradient(var(--gradient-grey));
+}
+
+#app-mount .wrapper-2vIMkT .button-3bklZh {
+    background: var(--gradient);
+}
+#app-mount .wrapper-2vIMkT .button-3bklZh img, #app-mount .wrapper-2vIMkT .button-3bklZh svg {
+    -webkit-transition: var(--button-transition);
+    transition: var(--button-transition);
+    -webkit-transform: var(--transform-normal);
+            transform: var(--transform-normal);
+}
+#app-mount .wrapper-2vIMkT .button-3bklZh:hover {
+    --gradient: linear-gradient(var(--gradient-blurple));
+}
+#app-mount .wrapper-2vIMkT .button-3bklZh:hover svg {
+    -webkit-transform: var(--transform-hover);
+            transform: var(--transform-hover);
+    color: white;
+}
+#app-mount .wrapper-2vIMkT .button-3bklZh.dangerous-Y36ifs:hover {
+    --gradient: linear-gradient(var(--gradient-red)) ;
+}

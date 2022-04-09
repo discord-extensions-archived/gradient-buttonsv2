@@ -1,13 +1,13 @@
 @-moz-document domain("discord.com") {
     /* ==UserStyle==
-    @name         Gradient Buttons V2
-    @description  Add some spice to your buttons.. with gradients!
-    @author       LuckFire#400
-    @namespace    github.com/LuckFire/GradientButtons-v2
-    @version      2.3.0
+    @name         Gradient Buttons
+    @description  Spice up your Discord buttons with gradients!
+    @author       LuckFire
+    @namespace    github.com/discord-extensions/gradient-buttons
+    @version      2.3.1
     ==/UserStyle== */
 
-    @import url('https://discord-theme-addons.github.io/gradientbuttons-v2/src/support/compiled.css');
+    @import url('https://discord-extensions.github.io/gradient-buttons/support/compiled.css');
 
     :root {
         /* Gradients */

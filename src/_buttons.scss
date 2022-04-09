@@ -1,7 +1,7 @@
-#app-mount .lookFilled-yCfaCM {
+.lookFilled-yCfaCM {
     transform: var(--transform-normal);
     transition: var(--button-transition);
-
+    background: var(--gradient);
     &:hover {
         transform: var(--button-transform-hover);
     }
@@ -10,18 +10,18 @@
     }
 
     &.colorBrand-I6CyqQ {
-        background: linear-gradient(var(--gradient-blurple));
+        --gradient: linear-gradient(var(--gradient-blurple));
     }
     &.colorGreen-3y-Z79, &.button-1EGGcP.buttonActive-Uc1jHx {
-        background: linear-gradient(var(--gradient-green));
+        --gradient: linear-gradient(var(--gradient-green));
     }
     &.colorYellow-Pgtmch {
-        background: linear-gradient(var(--gradient-yellow));
+        --gradient: linear-gradient(var(--gradient-yellow));
     }
     &.colorRed-rQXKgM {
-        background: linear-gradient(var(--gradient-red));
+        --gradient: linear-gradient(var(--gradient-red));
     }
     &.colorPrimary-2AuQVo, &.colorGrey-2iAG-B, &.buttonColor-3bP3fX {
-        background: linear-gradient(var(--gradient-grey));
+        --gradient: linear-gradient(var(--gradient-grey));
     }
 }

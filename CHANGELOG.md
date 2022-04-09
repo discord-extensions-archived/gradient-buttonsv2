@@ -1,3 +1,6 @@
+# v2.3.1
+- Changes to repository README and sorting. It has also been transferred over to a [new org](https://github.com/discord-extensions).
+
 # v2.3.0
 - Fixed theme being broken due to class reroll.
 

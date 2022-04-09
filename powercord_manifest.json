@@ -1,9 +1,9 @@
 {
-    "name": "Gradient Button V2",
-    "description": "Add some spice to your buttons.. with gradients!",
-    "version": "2.3.0",
-    "author": "LuckFire#4800",
-    "theme": "./src/_index.scss",
+    "name": "Gradient Buttons",
+    "description": "Spice up your Discord buttons with gradients!",
+    "version": "2.3.1",
+    "author": "LuckFire",
+    "theme": "./src/index.scss",
     "consent": "true",
     "license": "MIT"
 }

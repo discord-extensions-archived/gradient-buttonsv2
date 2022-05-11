@@ -3,7 +3,7 @@
     "description": "Spice up your Discord buttons with gradients!",
     "version": "2.3.1",
     "author": "LuckFire",
-    "theme": "./src/index.scss",
+    "theme": "./src/source.scss",
     "consent": "true",
     "license": "MIT"
 }

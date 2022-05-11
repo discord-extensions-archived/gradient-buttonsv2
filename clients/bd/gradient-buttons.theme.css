@@ -1,6 +1,6 @@
 /**
     * @name Gradient Buttons
-    * @version 2.3.1
+    * @version 2.3.0
     * @description Spice up your Discord buttons with gradients!
     * @author LuckFire
     *
@@ -8,7 +8,7 @@
     * @source github.com/discord-extensions/gradient-buttons
 **/
 
-@import url('https://discord-extensions.github.io/gradient-buttons/support/compiled.css');
+@import url('https://discord-extensions.github.io/gradient-buttons/src/source.css');
 
 :root {
     /* Gradients */

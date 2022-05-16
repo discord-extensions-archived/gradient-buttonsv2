@@ -1,4 +1,5 @@
-@use 'root';
-@use './main/buttons';
-@use './main/context';
-@use './main/message-actions';
+@use 'base/variables';
+
+@use 'components/buttons';
+@use 'components/context';
+@use 'components/message-actions';

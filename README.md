@@ -36,3 +36,6 @@ If you dislike the transitions on hover, you can simply just disable them using 
 # Credits
 - [Hoofer](https://github.com/HooferDevelops) for the original code, aka Gradient Buttons v1. He didn't publish the code, so I asked if I could with extra stuff.
 - [botato](https://github.com/bototo2) for letting me know that I can use `#id` instead of `[id=""]`.
+
+# Support Server
+If you are having any issues with the theme, feel free to join the [support server](https://discord.gg/vYdXbEzqDs), or make an issue on this repository.

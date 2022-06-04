@@ -4,7 +4,7 @@
 ### **[Powercord](https://powercord.dev/) & [Vizality](https://vizality.com/)**
 Head over to your **Themes folder -> open your terminal of choice -> copy-paste the following, then press enter**:
 ```
-https://github.com/discord-extensions/gradient-buttons
+git clone https://github.com/discord-extensions/gradient-buttons
 ```
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
@@ -33,9 +33,10 @@ If you dislike the transitions on hover, you can simply just disable them using 
 }
 ```
 
-# Credits
-- [Hoofer](https://github.com/HooferDevelops) for the original code, aka Gradient Buttons v1. He didn't publish the code, so I asked if I could with extra stuff.
-- [botato](https://github.com/bototo2) for letting me know that I can use `#id` instead of `[id=""]`.
+# Contributors
+|<a href="https://github.com/HooferDevelops"><img src="https://avatars.githubusercontent.com/u/60201971?v=4" width="90px" height="90px"></a>|<a href="https://github.com/bototo2"><img src="https://avatars.githubusercontent.com/u/70232113?v=4" width="90px" height="90px"></a>|
+|:-:|:-:|
+|[Hoofer](https://github.com/HooferDevelops)|[botato](https://github.com/bototo2)|
 
 # Support Server
 If you are having any issues with the theme, feel free to join the [support server](https://discord.gg/vYdXbEzqDs), or make an issue on this repository.

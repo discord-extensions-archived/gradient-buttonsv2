@@ -1,3 +1,6 @@
+# MOVED
+This addon has been moved to a snippets repository. You can find it located [here](https://github.com/discord-extensions/snippets/tree/main/gradient-buttons).
+
 <img src="./assets/banner.png">
 
 # Downloads
